@@ -1,0 +1,45 @@
+/* Basis-Stile */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  color: white;
+}
+
+.blue {
+  color: #2596be;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  /* Anpassungen für Bildschirmbreiten bis maximal 768px */
+  .App-header {
+    font-size: 18px;
+  }
+
+  .App-logo {
+    height: 30vmin;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Anpassungen für Bildschirmbreiten bis maximal 480px */
+  .App-header {
+    font-size: 14px;
+  }
+
+  .App-logo {
+    height: 20vmin;
+  }
+}
